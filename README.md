@@ -4,7 +4,7 @@ This is a Roman Numerals Converter Console Application using the Java programmin
 
 ---------------------------------------------------------------------------------------------------------
 
-###User Story
+### User Story
 
 As a user <br>
 I would like to use the Roman Numerals Converter Console Application
@@ -14,22 +14,22 @@ So that I can convert my roman numerals into numbers
 
 Convert the Roman Numerals for numbers 1 to 10.
 
-###Scenario 1:<br><br>
+### Scenario 1:<br><br>
 
-####GIVEN
+#### GIVEN
 The user starts the console application and is prompted with the message Please enter a Roman Numeral
-####WHEN
+#### WHEN
 The user enters the roman numeral I
-####THEN
+#### THEN
 The application will print the conversion to the console, in this case, You converted the Roman Numeral I to the number 1
 
-###Scenario 2:<br><br>
-####GIVEN
+### Scenario 2:<br><br>
+#### GIVEN
 The user starts the console application and is prompted with the message Please enter a Roman Numeral
 
-####WHEN
+#### WHEN
 The user enters the roman numeral II
 
-####THEN
+#### THEN
 The application will print the conversion to the console, in this case, You converted the Roman Numeral II to the number 2
 
