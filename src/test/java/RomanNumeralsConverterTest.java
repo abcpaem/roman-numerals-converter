@@ -8,4 +8,9 @@ class RomanNumeralsConverterTest {
     void checkGetNumberWhenRomanNumeralIsOne() {
         assertEquals(1, RomanNumeralsConverter.getNumber("I"));
     }
+
+    @Test
+    void checkGetNumberWhenRomanNumeralIsTwo() {
+        assertEquals(2, RomanNumeralsConverter.getNumber("II"));
+    }
 }
