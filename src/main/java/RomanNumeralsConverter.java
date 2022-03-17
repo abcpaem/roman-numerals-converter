@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class RomanNumeralsConverter {
     static HashMap<String, Integer> romanConversions = new HashMap<>() {{
         put("I", 1);
+        put("II", 2);
     }};
 
     static int getNumber(String romanNumeral)
