@@ -2,14 +2,21 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class RomanNumeralsConverter {
-    static HashMap<String, Integer> romanConversions = new HashMap<>() {{
-        put("I", 1);
-        put("II", 2);
+    static HashMap<Character, Integer> romanConversions = new HashMap<>() {{
+        put('I', 1);
     }};
 
     static int getNumber(String romanNumeral)
     {
-        return romanConversions.get(romanNumeral);
+        int number = 0;
+        char[] chars = romanNumeral.toCharArray();
+
+        for (char c : chars)
+        {
+            number += romanConversions.get(c);
+        }
+
+        return number;
     }
 
     public static void main(String[] args)
