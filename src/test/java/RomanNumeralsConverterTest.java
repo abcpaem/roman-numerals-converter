@@ -53,4 +53,12 @@ class RomanNumeralsConverterTest {
     void checkGetNumberWhenRomanNumeralIsTen() {
         assertEquals(10, RomanNumeralsConverter.getNumber("X"));
     }
+
+    @Test
+    void checkGetNumberWhenRomanNumeralIsNotRecognisedOrSupported() {
+        Throwable exception = assertThrows(UnsupportedOperationException.class, () -> RomanNumeralsConverter.getNumber("C"));
+        assertEquals("The input provided is not recognised or supported as a roman numeral", exception.getMessage());
+    }
+
+
 }

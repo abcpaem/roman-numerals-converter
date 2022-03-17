@@ -17,8 +17,7 @@ public class RomanNumeralsConverter {
 
         char[] chars = romanNumeral.toCharArray();
 
-        for (char c : chars)
-        {
+        for (char c : chars) {
             number += romanConversions.get(c);
         }
 
