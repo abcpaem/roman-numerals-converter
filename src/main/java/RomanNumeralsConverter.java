@@ -5,6 +5,7 @@ public class RomanNumeralsConverter {
     static HashMap<Character, Integer> romanConversions = new HashMap<>() {{
         put('I', 1);
         put('V', 5);
+        put('X', 10);
     }};
 
     static int getNumber(String romanNumeral)
