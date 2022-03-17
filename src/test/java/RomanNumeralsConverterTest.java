@@ -28,4 +28,9 @@ class RomanNumeralsConverterTest {
     void checkGetNumberWhenRomanNumeralIsFive() {
         assertEquals(5, RomanNumeralsConverter.getNumber("V"));
     }
+
+    @Test
+    void checkGetNumberWhenRomanNumeralIsSix() {
+        assertEquals(6, RomanNumeralsConverter.getNumber("VI"));
+    }
 }
