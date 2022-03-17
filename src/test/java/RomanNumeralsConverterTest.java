@@ -5,6 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class RomanNumeralsConverterTest {
 
     @Test
+    // Roman numerals start to count from one and had no symbol to represent “0“, but for now we will assume that an empty string will return zero
+    void checkGetNumberWhenRomanNumeralIsEmpty() {
+        assertEquals(0, RomanNumeralsConverter.getNumber(""));
+    }
+
+    @Test
     void checkGetNumberWhenRomanNumeralIsOne() {
         assertEquals(1, RomanNumeralsConverter.getNumber("I"));
     }
