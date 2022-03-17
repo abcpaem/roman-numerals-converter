@@ -17,8 +17,15 @@ public class RomanNumeralsConverter {
 
         char[] chars = romanNumeral.toCharArray();
 
-        for (char c : chars) {
-            number += romanConversions.get(c);
+        try
+        {
+            for (char c : chars) {
+                number += romanConversions.get(c);
+            }
+        }
+        catch (Exception e)
+        {
+            throw new UnsupportedOperationException("The input provided is not recognised or supported as a roman numeral");
         }
 
         return number;
