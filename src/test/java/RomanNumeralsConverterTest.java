@@ -43,4 +43,9 @@ class RomanNumeralsConverterTest {
     void checkGetNumberWhenRomanNumeralIsEight() {
         assertEquals(8, RomanNumeralsConverter.getNumber("VIII"));
     }
+
+    @Test
+    void checkGetNumberWhenRomanNumeralIsNine() {
+        assertEquals(9, RomanNumeralsConverter.getNumber("IX"));
+    }
 }
