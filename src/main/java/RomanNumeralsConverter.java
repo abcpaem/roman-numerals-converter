@@ -11,8 +11,8 @@ public class RomanNumeralsConverter {
     {
         int number = 0;
 
-        // Replaces IV for its equivalent in I(s), so it can be added as a known number
-        romanNumeral = romanNumeral.replace("IV", "IIII");
+        // Replaces IV and IX for their equivalent in our known roman numerals, so they can be added later
+        romanNumeral = romanNumeral.replace("IV", "IIII").replace("IX", "VIIII");
 
         char[] chars = romanNumeral.toCharArray();
 
