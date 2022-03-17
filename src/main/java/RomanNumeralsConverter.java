@@ -9,6 +9,10 @@ public class RomanNumeralsConverter {
     static int getNumber(String romanNumeral)
     {
         int number = 0;
+
+        // Replaces IV for its equivalent in I(s), so it can be added as a known number
+        romanNumeral = romanNumeral.replace("IV", "IIII");
+
         char[] chars = romanNumeral.toCharArray();
 
         for (char c : chars)
