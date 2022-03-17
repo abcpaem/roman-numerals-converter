@@ -1,10 +1,14 @@
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class RomanNumeralsConverter {
+    static HashMap<String, Integer> romanConversions = new HashMap<>() {{
+        put("I", 1);
+    }};
 
     static int getNumber(String romanNumeral)
     {
-        return 0;
+        return romanConversions.get(romanNumeral);
     }
 
     public static void main(String[] args)
