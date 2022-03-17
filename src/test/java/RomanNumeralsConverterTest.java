@@ -13,4 +13,9 @@ class RomanNumeralsConverterTest {
     void checkGetNumberWhenRomanNumeralIsTwo() {
         assertEquals(2, RomanNumeralsConverter.getNumber("II"));
     }
+
+    @Test
+    void checkGetNumberWhenRomanNumeralIsThree() {
+        assertEquals(3, RomanNumeralsConverter.getNumber("III"));
+    }
 }
