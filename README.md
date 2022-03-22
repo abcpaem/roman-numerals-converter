@@ -2,6 +2,25 @@
 
 This is a Roman Numerals Converter Console Application using the Java programming language in a Maven project (using IntelliJ).
 
+### Goal & features
+Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a roman numeral and the application will convert it to the equivalent Arabic numeral.
+
+### Technology
+This project was built using Java version 17.0.2, JUnit 5.8.2 for unit testing and the Community Edition for the IntelliJ 2021.3.2 development environment.
+
+### How to run the application
+1) cd to the project root folder in the command line
+2) mvn compile
+3) mvn exec:java -Dexec.mainClass=RomanNumeralsConverter
+
+To run tests:
+1) mvn test
+
+### What to improve
+- Update the app to accept any roman numeral
+- Add more tests for non-valid roman numerals
+- Add a package name to avoid any future name conflict 
+
 ---------------------------------------------------------------------------------------------------------
 
 ### User Story
@@ -11,8 +30,6 @@ I would like to use the Roman Numerals Converter Console Application
 So that I can convert my roman numerals into numbers
 
 ✅   User Acceptance Criteria
-
-Convert the Roman Numerals for numbers 1 to 10.
 
 ### Scenario 1:<br><br>
 
