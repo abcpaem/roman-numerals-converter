@@ -2,6 +2,8 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class RomanNumeralsConverter {
+    static final String ROMAN_NUMERAL_REGULAR_EXPRESSION = "^X{0,3}?(IX|IV|V?I{0,3})?$";
+    static final String INVALID_ROMAN_NUMERAL = "The input provided is not recognised or supported as a roman numeral";
     static HashMap<Character, Integer> romanConversions = new HashMap<>() {{
         put('I', 1);
         put('V', 5);
@@ -9,6 +11,9 @@ public class RomanNumeralsConverter {
     }};
 
     static int getNumber(String romanNumeral) {
+        if (!romanNumeral.matches(ROMAN_NUMERAL_REGULAR_EXPRESSION))
+            throw new UnsupportedOperationException(INVALID_ROMAN_NUMERAL);
+
         int number = 0;
 
         // Replaces IV and IX for their equivalent in our known roman numerals, so they can be added later
@@ -21,7 +26,7 @@ public class RomanNumeralsConverter {
                 number += romanConversions.get(c);
             }
         } catch (Exception e) {
-            throw new UnsupportedOperationException("The input provided is not recognised or supported as a roman numeral");
+            throw new UnsupportedOperationException(INVALID_ROMAN_NUMERAL);
         }
 
         return number;
