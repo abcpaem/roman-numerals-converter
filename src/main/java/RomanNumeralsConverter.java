@@ -11,6 +11,8 @@ public class RomanNumeralsConverter {
     }};
 
     static int getNumber(String romanNumeral) {
+        romanNumeral = romanNumeral.toUpperCase();
+
         if (!romanNumeral.matches(ROMAN_NUMERAL_REGULAR_EXPRESSION))
             throw new UnsupportedOperationException(INVALID_ROMAN_NUMERAL);
 
