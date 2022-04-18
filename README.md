@@ -5,6 +5,8 @@ This is a Roman Numerals Converter Console Application using the Java programmin
 ### Goal & features
 Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a roman numeral and the application will convert it to the equivalent Arabic numeral.
 
+**IMPORTANT NOTE:** For a full Roman numerals <-> Arabic numbers converter please check the [TDD Roman Numerals kata](https://github.com/abcpaem/tdd-roman-numerals-kata). 
+
 ### Technology
 This project was built using Java version 17.0.2, JUnit 5.8.2 for unit testing and the Community Edition for the IntelliJ 2021.3.2 development environment.
 
