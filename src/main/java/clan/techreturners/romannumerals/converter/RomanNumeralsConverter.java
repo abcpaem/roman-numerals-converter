@@ -39,7 +39,7 @@ public class RomanNumeralsConverter {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Please enter a Roman Numeral");
+        System.out.println("Please enter a Roman Numeral from 1 to 10 (I - X):");
 
         String romanNumeral = in.nextLine();
 
