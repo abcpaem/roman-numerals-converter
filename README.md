@@ -13,7 +13,7 @@ This project was built using Java version 17.0.2, JUnit 5.8.2 for unit testing a
 ### How to run the application
 1) cd to the project root folder in the command line
 2) mvn compile
-3) mvn exec:java -Dexec.mainClass=RomanNumeralsConverter
+3) mvn exec:java -Dexec.mainClass=clan.techreturners.romannumerals.converter.RomanNumeralsConverter
 
 To run tests:
 1) mvn test
