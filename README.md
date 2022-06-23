@@ -3,7 +3,7 @@
 This is a Roman Numerals Converter Console Application using the Java programming language in a Maven project (using IntelliJ).
 
 ### Goal & features
-Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a roman numeral and the application will convert it to the equivalent Arabic numeral.
+Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a Roman numeral and the application will convert it to the equivalent Arabic numeral.
 
 **NOTE:** For a full Roman numerals <-> Arabic numbers converter please check the [TDD Roman Numerals kata](https://github.com/abcpaem/tdd-roman-numerals-kata).
 
@@ -11,30 +11,21 @@ Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a 
 
 ### User Story
 
-As a user <br>
-I would like to use the Roman Numerals Converter Console Application
+As a user <br/>
+I would like to use the Roman Numerals Converter console application<br/>
 So that I can convert my roman numerals into numbers
 
 ✅   User Acceptance Criteria
 
-### Scenario 1:<br><br>
+### Scenario 1:
+**GIVEN** The user starts the console application and is prompted with the message Please enter a Roman Numeral<br/>
+**WHEN** The user enters the roman numeral I<br/>
+**THEN** The application will print the conversion to the console. In this case, the Roman Numeral I is converted to the number 1
 
-#### GIVEN
-The user starts the console application and is prompted with the message Please enter a Roman Numeral
-#### WHEN
-The user enters the roman numeral I
-#### THEN
-The application will print the conversion to the console, in this case, You converted the Roman Numeral I to the number 1
-
-### Scenario 2:<br><br>
-#### GIVEN
-The user starts the console application and is prompted with the message Please enter a Roman Numeral
-
-#### WHEN
-The user enters the roman numeral II
-
-#### THEN
-The application will print the conversion to the console, in this case, You converted the Roman Numeral II to the number 2
+### Scenario 2:
+**GIVEN** The user starts the console application and is prompted with the message: Please enter a Roman Numeral<br/>
+**WHEN** The user enters the roman numeral II<br/>
+**THEN** The application will print the conversion to the console. In this case, the Roman Numeral II is converted to the number 2
 
 ---
 ### How to run the application
