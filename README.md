@@ -1,11 +1,11 @@
 # Roman Numerals Converter
 
-This is a Roman Numerals Converter Console Application using the Java programming language in a Maven project (using IntelliJ).
+This is a Roman Numerals Converter console application using the Java programming language.
 
 ### Goal & features
 Convert the Roman Numerals for numbers 1 to 10. The user is prompted to enter a Roman numeral and the application will convert it to the equivalent Arabic numeral.
 
-**NOTE:** For a full Roman numerals <-> Arabic numbers converter please check the [TDD Roman Numerals kata](https://github.com/abcpaem/tdd-roman-numerals-kata).
+For a full Roman numerals converter, please have a look to the [TDD Roman Numerals kata](https://github.com/abcpaem/tdd-roman-numerals-kata).
 
 ---------------------------------------------------------------------------------------------------------
 
